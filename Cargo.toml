@@ -52,7 +52,7 @@ optional = true
 env_logger = "0.3"
 
 [features]
-default = ["ssl"]
+default = []
 ssl = ["openssl", "openssl-verify", "cookie/secure"]
 serde-serialization = ["serde", "mime/serde"]
 nightly = []
