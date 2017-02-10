@@ -137,7 +137,7 @@ extern crate num_cpus;
 extern crate traitobject;
 extern crate typeable;
 
-#[cfg_attr(test, macro_use)]
+#[macro_use]
 extern crate language_tags;
 
 #[macro_use]
